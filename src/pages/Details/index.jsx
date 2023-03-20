@@ -6,6 +6,9 @@ import Chart from "chart.js/auto";
 import { CategoryScale } from "chart.js/auto";
 import { Bar } from "react-chartjs-2";
 
+Chart.register(CategoryScale);
+Chart.register(zoomPlugin);
+
 const Details = () => {
   const [labels, setLabels] = useState([]);
   const [symptomsData, setSymptomsData] = useState([]);

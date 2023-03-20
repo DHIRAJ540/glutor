@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from "../../components/Navbar";
 import Profile from "../../components/Profile";
 import Sidebar from "../../components/Sidebar";
 import CircularProgress from "@mui/material/CircularProgress";
