@@ -119,7 +119,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="sm:relative  md:absolute bottom-[10px] font-bold ">
+        <div className="sm:relative   mt-5 font-bold ">
           <p>
             *This is only the representation of our Hardware device(Glutor) works and how it collects the data and says
             whether you are Diabetic or not.
